@@ -1,0 +1,30 @@
+
+
+:root{
+    --cor-principal: #228543;
+    --cor-secundaria: #5c225e;
+    --cor-destaque:   #4276b9;
+}
+
+body{
+    font-family: ;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(cor destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover{
+    color:var(--cor-principal)
+}
+
+a:hover{
+    color:var(cor destaque);
+}
