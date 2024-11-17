@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=Moderustic:wght@410&display=swap');
 
-
-:root{
-    --cor-principal: #228543;
-    --cor-secundaria: #5c225e;
-    --cor-destaque:   #4276b9;
+:root {
+    --cor-principal: #4c5d5c;
+    --cor-secundaria: #2E8B57;
+    --cor-destaque: #8FBC8F;
 }
 
-body{
-    font-family: ;
+body {
+    font-family: 'Alike', sans-serif;
     color: var(--cor-principal);
+    background-color: #eef1ea;
 }
 
 h1, h2, h5 {
@@ -17,14 +18,14 @@ h1, h2, h5 {
 }
 
 .lead, .btn-link {
-    color: var(cor destaque);
+    color: var(--cor-destaque);
     font-weight: 700;
 }
 
-a, .btn-link:hover{
-    color:var(--cor-principal)
+a, .btn-link:hover {
+    color: var(--cor-principal)
 }
 
 a:hover{
-    color:var(cor destaque);
+    color: var(--cor-destaque);
 }
